@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="calculator">
+            <div class="calculator-display">0</div>
+        </div>
+        <div class="calculator_keys">
+            <div class="row-0">
+                <button class="key--operator" data-action="add">+</button>
+                <button class="key--operator" data-action="subtract">-</button>
+                <button class="key--operator" data-action="multiply">&times;</button>
+                <button class="key--operator" data-action="divide">&divide;</button>
+            </div>
+            <div class="row-1">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+            </div>
+            <div class="row-2">
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+            </div>
+            <div class="row-3">
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+            </div>
+            <div class="row-4">
+                <button>0</button>
+                <button data-action="decimal">.</button>
+                <button data-action="clear">AC</button>
+            </div>
+            <button class="key--equal" data-action="calculate">=</button>
+        </div>
+    </div>
+</body>
+</html>
